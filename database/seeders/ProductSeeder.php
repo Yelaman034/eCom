@@ -18,11 +18,13 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert(
             [
                 [
-                    'name' => "iPhone 11 Pro Max 256gb (2 SIM)",
-                    'price' => "4,609,000₮",
-                    'category' => "iPhone",
-                    'description' => "Тус бүр 5.8 болон 6.5 инч бүхий OLED дэлгэц. Super Retina XDR дэлгэцтэй ба HDR10 нягтаршил дэмжинэ. Дуу гаргалт Dolby Vision, Dolby Atmos системтэй",
-                    'photo' => "productImage/ip11.jpeg"
+                    'name' => "Macbook Pro 16 Core i9 1TB SSD",
+                    'price' => "9,790,000₮",
+                    'category' => "Macbook",
+                    'description' => "9-р үеийн 8 цөм бүхий Intel Core i9 процессор,
+                    16inch Retina дэлгэц болон True Tone технологи,
+                    TouchBar болон Touch ID",
+                    'photo' => "productImage/mac2.jpeg"
                 ]
             ]
         );     
