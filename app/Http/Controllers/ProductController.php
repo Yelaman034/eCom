@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Users extends Controller
+class ProductController extends Controller
 {
     //
     function index(){
-        return "Hello from controller";
+        return "Welcome to product page";
     }
 }
