@@ -39,5 +39,16 @@
     .trending-wrapper{
         margin:30px;
     }
+    .view img{
+        width:550px;
+        height:500px;
+    }
+    .text {
+        color:red;
+        font-size:20px;
+    }
+    .design{
+        margin-top:60px;
+    }
 </style>
 </html>

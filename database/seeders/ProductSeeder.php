@@ -18,15 +18,46 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert(
             [
                 [
-                    'name' => "Macbook Pro 16 Core i9 1TB SSD",
-                    'price' => "9,790,000₮",
-                    'category' => "Macbook",
-                    'description' => "9-р үеийн 8 цөм бүхий Intel Core i9 процессор,
-                    16inch Retina дэлгэц болон True Tone технологи,
-                    TouchBar болон Touch ID",
-                    'photo' => "productImage/mac2.jpeg"
+                    'name' => "iPhone 12 Pro (128GB)",
+                    'price' => "5,310,000₮",
+                    'category' => "iPhone",
+                    'description' => "iPhone 12 Pro нь 8-аас 10 битийн HDR бичлэгээс үсрэх бөгөөд 700 сая өнгө хадгалж, илүү бодитой видеог авах боломжтой.",
+                    'photo' => "productImage/ip12pro.jpg",
+                    'b_code' => "10020005",
+                    'brend' => "Apple",
+                    'color' => "цэнхэр"
+                ],
+                [
+                    'name' => "iPhone 12 Pro (128GB)",
+                    'price' => "5,310,000₮",
+                    'category' => "iPhone",
+                    'description' => "iPhone 12 Pro нь 8-аас 10 битийн HDR бичлэгээс үсрэх бөгөөд 700 сая өнгө хадгалж, илүү бодитой видеог авах боломжтой.",
+                    'photo' => "productImage/ip12pro.jpg",
+                    'b_code' => "10020005",
+                    'brend' => "Apple",
+                    'color' => "цэнхэр"
+                ],
+                [
+                    'name' => "iPhone 12 Pro (128GB)",
+                    'price' => "5,310,000₮",
+                    'category' => "iPhone",
+                    'description' => "iPhone 12 Pro нь 8-аас 10 битийн HDR бичлэгээс үсрэх бөгөөд 700 сая өнгө хадгалж, илүү бодитой видеог авах боломжтой.",
+                    'photo' => "productImage/ip12pro.jpg",
+                    'b_code' => "10020005",
+                    'brend' => "Apple",
+                    'color' => "цэнхэр"
+                ],[
+                    'name' => "iPhone 12 Pro (128GB)",
+                    'price' => "5,310,000₮",
+                    'category' => "iPhone",
+                    'description' => "iPhone 12 Pro нь 8-аас 10 битийн HDR бичлэгээс үсрэх бөгөөд 700 сая өнгө хадгалж, илүү бодитой видеог авах боломжтой.",
+                    'photo' => "productImage/ip12pro.jpg",
+                    'b_code' => "10020005",
+                    'brend' => "Apple",
+                    'color' => "цэнхэр"
                 ]
+                
             ]
-        );     
+        );    
     }
 }

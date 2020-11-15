@@ -19,6 +19,9 @@ class CreateProductsTable extends Migration
             $table->string('price');
             $table->string('category');
             $table->string('description');
+            $table->string('b_code');
+            $table->string('brend');
+            $table->string('color');
             $table->string('photo');
             $table->timestamps();
         });
