@@ -17,9 +17,9 @@
         <li class="active"><a href="#">НҮҮР ХУУДАС</a></li>
         <li  class=""><a href="#">ЗАХИАЛГУУД</a></li>
       </ul>
-      <form class="navbar-form navbar-left">
+      <form action="/search" class="navbar-form navbar-left">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Хайлт">
+          <input type="text" name="query" class="form-control search-box" placeholder="Хайлт">
         </div>
         <button type="submit" class="btn btn-default">ХАЙХ</button>
       </form>
