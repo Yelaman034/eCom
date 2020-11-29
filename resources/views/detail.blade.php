@@ -68,9 +68,12 @@
     </div>
     <hr>
     
-    <button type="button" class="btn btn-primary btn-md mr-1 mb-2">ХУДАЛДАН АВАХ</button>
-    <button type="button" class="btn btn-light btn-md mr-1 mb-2"><i
-        class="fas fa-shopping-cart pr-2"></i>САГСАНД НЭМЭХ</button>
+    <button class="btn btn-primary btn-md mr-1 mb-2">ХУДАЛДАН АВАХ</button>
+    <form action="/add_to_cart" method="POST">
+    <input type="hidden" name="product_id" value="{{$product['id']}}">
+    @csrf
+    <button class="btn btn-light btn-md mr-1 mb-2">САГСАНД НЭМЭХ</button>
+    </form>
   </div>
 </div>
 
