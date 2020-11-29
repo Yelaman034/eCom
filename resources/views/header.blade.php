@@ -1,3 +1,7 @@
+<?php
+use App\Http\Controllers\ProductController;
+$total = ProductController::cartItem();
+?>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -24,7 +28,7 @@
         <button type="submit" class="btn btn-default">ХАЙХ</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">САГС(0)</a></li>
+        <li><a href="#">САГС({{$total}})</a></li>
        
       </ul>
     </div><!-- /.navbar-collapse -->
