@@ -29,5 +29,7 @@ Route::get('search',[ProductController::class,'search']);
 Route::post('/add_to_cart',[ProductController::class,'addToCart']);
 Route::get('/cardlist',[ProductController::class,'cardList']);
 Route::get('/removecart/{id}',[ProductController::class,'removeCart']);
+Route::post('/orderplace',[ProductController::class,'orderPlace']);
+
 
 Route::get('/ordernow',[ProductController::class,'orderNow']);
