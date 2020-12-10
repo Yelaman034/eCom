@@ -24,7 +24,7 @@ if(Session::has('user'))
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">НҮҮР ХУУДАС</a></li>
-        <li  class=""><a href="#">ЗАХИАЛГУУД</a></li>
+        <li  class=""><a href="/myorder">ЗАХИАЛГУУД</a></li>
       </ul>
       <form action="/search" class="navbar-form navbar-left">
         <div class="form-group">
