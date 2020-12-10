@@ -5,7 +5,7 @@
 
     <div class="col-sm-10">
         <div class="trending-wrapper">
-        <h2><strong>Захиалгын жагсаалт</strong></h2>
+        <h2><strong>*Захиалгын жагсаалт*</strong></h2>
         <div class="">
         @foreach($orders as $item)
         <div class="row searched-item card-list-devider">
