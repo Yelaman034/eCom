@@ -40,19 +40,19 @@
   </a>
 </div>
     <div class="trending-wrapper">
-    <h3>Бүтээгдэхүүнүүд</h3>
-    @foreach($products as $item)
-    <div class="trending-item">
-        <a href="detail/{{$item['id']}}">
-        <img class="trending-image" src="{{$item['photo']}}">
-        <div class="">
-        <b style="font-size:11.5px">{{$item['name']}}</b>
-        <h3 style="font-size:12px">{{$item['price']}}</h3>
+      <h3>Бүтээгдэхүүнүүд</h3>
+       @foreach($products as $item)
+          <div class="trending-item">
+            <a href="detail/{{$item['id']}}">
+            <img class="trending-image" src="{{$item['photo']}}">
+                <div class="">
+                <b style="font-size:11.5px">{{$item['name']}}</b>
+                <h3 style="font-size:12px">{{$item['price']}}</h3>
+                </div>
+            </a>
         </div>
-        </a>
-    </div>
-    @endforeach
-    </div>
+        @endforeach
+        </div>
     </div>
 </div>
 
